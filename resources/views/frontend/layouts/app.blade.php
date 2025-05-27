@@ -166,14 +166,14 @@ $currentMonth = Carbon::now();
                                         <!-- <li class="dropdown {{ request()->is('page/profil-batanghari*') ? 'dropdown current' : '' }}">
                                             <a href="#">Profil</a>
                                             <ul>
-                                                <li><a href="{{ url('page/profil-puskesmas-batin') }}" class="{{ request()->is('page/profil-puskesmas-batin') ? 'dropdown current' : '' }}">Profil {{config('app.nama_pic')}}</a></li>
+                                                <li><a href="{{ url('page/profil-puskesmas-durian-luncuk') }}" class="{{ request()->is('page/profil-puskesmas-durian-luncuk') ? 'dropdown current' : '' }}">Profil {{config('app.nama_pic')}}</a></li>
                                                 <li><a href="{{ url('page/arti-lambang') }}" class="{{ request()->is('page/arti-lambang') ? 'dropdown current' : '' }}">Arti Lambang</a></li>
                                                 <li><a href="{{ url('page/kondisi-demografi') }}" class="{{ request()->is('page/kondisi-demografi') ? 'dropdown current' : '' }}">Kondisi Demografi</a></li>
                                                 <li><a href="{{ url('page/peta-batanghari') }}" class="{{ request()->is('page/peta-batanghari') ? 'dropdown current' : '' }}">Peta Batanghari</a></li>
                                                 <li><a href="{{ url('page/visi-dan-misi') }}" class="{{ request()->is('page/visi-dan-misi') ? 'dropdown current' : '' }}">Visi & Misi</a></li>
                                             </ul>
                                         </li> -->
-                                        <li><a href="{{ url('page/profil-puskesmas-batin') }}" class="{{ request()->is('page/profil-puskesmas-batin') ? 'dropdown current' : '' }}">Profil {{config('app.nama_pic')}}</a></li>
+                                        <li><a href="{{ url('page/profil-puskesmas-durian-luncuk') }}" class="{{ request()->is('page/profil-puskesmas-durian-luncuk') ? 'dropdown current' : '' }}">Profil {{config('app.nama_pic')}}</a></li>
                                         <li><a href="{{ url('page/visi-dan-misi') }}" class="{{ request()->is('page/visi-dan-misi') ? 'dropdown current' : '' }}">Visi dan Misi</a></li>
                                         <li><a href="{{ url('page/struktur-organisasi') }}" class="{{ request()->is('page/struktur-organisasi') ? 'dropdown current' : '' }}">Struktur Organisasi</a></li>                                        
                                         <!-- <li><a href="{{ url('page/pemerintah-batanghari') }}" class="{{ request()->is('page/pemerintah-batanghari') ? 'dropdown current' : '' }}">Pemerintahan Batanghari</a></li>

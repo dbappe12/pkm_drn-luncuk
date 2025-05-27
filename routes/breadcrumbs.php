@@ -45,7 +45,7 @@ Breadcrumbs::for('page.tampil', function (BreadcrumbTrail $trail, $slug) {
         'lakip' => 'LAKIP',
         'akuntabilitas-batanghari' => 'Transparansi Anggaran',
         'struktur-organisasi' => 'Struktur Organisasi',
-        'profil-puskesmas-batin' => 'Profil Puskesmas Batin',
+        'profil-puskesmas-durian-luncuk' => 'Profil Puskesmas Durian Luncuk',
         'jadwal-pelayanan' => 'Jadwal Pelayanan',
         'tarif-retribusi' => 'Tarif Retribusi',
         'jadwal-pusling-puskesmas' => 'Jadwal Pusling Puskesmas',

@@ -5,7 +5,7 @@
     <meta property="og:image" content="{{ $berita->gambar ? asset('berita/' . $berita->gambar) : asset('images/ppid-share.png') }}" />
     <meta property="og:url" content="{{ url()->current() }}" />
     <meta property="og:type" content="article" />
-    <meta property="og:site_name" content="{{ config('app.name', 'Puskesmas Batin') }}" />
+    <meta property="og:site_name" content="{{ config('app.name', 'Puskesmas Durian Luncuk') }}" />
 @endsection
 @section('content')
 <style>
