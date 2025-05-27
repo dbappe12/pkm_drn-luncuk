@@ -3,7 +3,7 @@
     <a href="#" class="brand-link">
         <img src="{{ asset('img/logo_pkm.png') }}" alt="{{ Setting::getName('app_name') }}"
             class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">MASTER APP</span>
+        <span class="brand-text font-weight-light">Front End CMS</span>
 </a>
 <a href="{{ route('home') }}" target="_blank" class="brand-link d-flex align-items-center justify-content-center text-decoration-none">
     <i class="fas fa-rocket fa-fw me-2 text-success"></i>
