@@ -27,7 +27,7 @@ $currentMonth = Carbon::now();
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> .:: Situs {{config('app.nama_pic')}}::. </title>
+    <title> .:: Situs {{config('app.nama_pic')}} ::. </title>
     <!-- favicons Icons -->
      <!-- New css -->
     <link rel="stylesheet" href="{{ asset('css/front_layout_index.css') }}">
