@@ -305,6 +305,22 @@
                                 ['custom', ['imageAttributes']],
                             ]
                         },
+                        codeviewFilter: true,
+                        codeviewIframeFilter: true,
+                        codeviewIframeWhitelistSrc: ['www.youtube.com'],
+                        callbacks: {
+                            onChange: function(contents, $editable) {
+                                $('.note-editable iframe:not([data-processed])').each(function() {
+                                    var src = $(this).attr('src');
+                                    if (src && src.includes('www.youtube.com')) {
+                                        $(this).wrap('<div class="video-wrapper"></div>')
+                                            .attr('width', '350')
+                                            .attr('height', '350')
+                                            .attr('data-processed', 'true');
+                                    }
+                                });
+                            }
+                        }
                 
                     });
                 });
