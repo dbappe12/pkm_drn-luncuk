@@ -101,6 +101,7 @@ class PageController extends Controller
             'akuntabiltas-pelaporan' => 'Content of Akuntabiltas Pelaporan page',
             'akuntabilitas-batanghari' => 'Content of Transparansi Anggaran page',
             'struktur-organisasi' => 'Content of Struktur Organisasi page',
+            'profil-kepala-puskesmas' => 'Content of Profil Kepala Puskesmas page',
             'profil-puskesmas-durianluncuk' => 'Content of Profil Puskesmas Durian Luncuk page',
             'jadwal-pelayanan' => 'Content of Jadwal Pelayanan page',
             'tarif-retribusi' => 'Content of Tarif Retribusi page',
