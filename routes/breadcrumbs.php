@@ -45,7 +45,7 @@ Breadcrumbs::for('page.tampil', function (BreadcrumbTrail $trail, $slug) {
         'lakip' => 'LAKIP',
         'akuntabilitas-batanghari' => 'Transparansi Anggaran',
         'struktur-organisasi' => 'Struktur Organisasi',
-        'profil-kepala-puskesmas' => 'Profil Kepala Puskesmas',
+        'profil-kepala-uptd-puskesmas' => 'Profil Kepala UPTD Puskesmas',
         'profil-puskesmas-durian-luncuk' => 'Profil Puskesmas Durian Luncuk',
         'jadwal-pelayanan' => 'Jadwal Pelayanan',
         'tarif-retribusi' => 'Tarif Retribusi',
