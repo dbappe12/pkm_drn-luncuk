@@ -243,8 +243,8 @@
                                     var src = $(this).attr('src');
                                     if (src && src.includes('www.youtube.com')) {
                                         $(this).wrap('<div class="video-wrapper"></div>')
-                                            .attr('width', '350')
-                                            .attr('height', '350')
+                                            .attr('width', '330')
+                                            .attr('height', '330')
                                             .attr('data-processed', 'true');
                                     }
                                 });
