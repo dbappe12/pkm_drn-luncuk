@@ -227,28 +227,31 @@
                 <span class="section-title__tagline">Berita Lainnya</span></a>
                 </div>
                 <div class="row">
-                        <div class="col-xl-6 wow fadeInUp" data-wow-delay="100ms">
-                            <div class="news-two__left">
-                                @if($latestRecord)
-                                    <div class="news-two__left-img">
-                                        <img style="width: 570px; height: 436px; object-fit: none;" src="{{$latestRecord->gambar}}" alt="">
-                                        <div class="news-two__left-img-content">
-                                            <ul class="news-two__left-meta list-unstyled">
-                                                <li>
-                                                    <a href="{{route('read', ['id' => $latestRecord->id, 'title' => $latestRecord->judul])}}"><i class="fas fa-user-circle"></i>by Admin</a>
-                                                </li>
-                                                <li>
-                                                    <a href="{{route('read', ['id' => $latestRecord->id, 'title' => $latestRecord->judul])}}"><i class="fas fa-calendar-week"></i>{{$latestRecord->tanggal}}</a>
-                                                </li>
-                                            </ul>
-                                            <h3 class="news-two__left-title"><a href="{{route('read', ['id' => $latestRecord->id, 'title' => $latestRecord->judul])}}">{{ substr($latestRecord->judul, 0, 50) }} ...!</a></h3>
-                                        </div>
-                                    </div>
-                                @else
-                                            <h5 style="text-align: center;">Belum ada berita</h5>
-                                @endif
+                    <div class="col-xl-6 wow fadeInUp" data-wow-delay="100ms">
+                             
+                               
+                        <div class="news-two__left">
+   
+                            <div class="news-two__left-img">
+                            
+                            <img   style="width: 570px; height: 436px; object-fit: none;"  src="{{$latestRecord->gambar}}"alt="">
+                          
+                                <div class="news-two__left-img-content">
+                                    <ul class="news-two__left-meta list-unstyled">
+                                        <li>
+                                        <a href="{{route('read', ['id' =>$latestRecord->id,'title'=>$latestRecord->judul])}}"><i class="fas fa-user-circle"></i>by Admin</a>
+                                        </li>
+                                        <li>
+                                        <a href="{{route('read', ['id' =>$latestRecord->id,'title'=>$latestRecord->judul])}}"><i class="fas fa-calendar-week"></i></i>{{$latestRecord->tanggal}}</a>
+                                        </li>
+                                    </ul>
+                                    <h3 class="news-two__left-title"><a href="{{route('read', ['id' =>$latestRecord->id,'title'=>$latestRecord->judul])}}">{{ substr($latestRecord->judul,0,50) }} ...!</a></h3>
+                                </div>
                             </div>
+                           
+                            
                         </div>
+                    </div>
                     <div class="col-xl-6 wow fadeInUp" data-wow-delay="200ms">
                         <div class="news-two__right">
                             <ul class="list-unstyled news-two__list">
